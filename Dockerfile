@@ -8,4 +8,4 @@ WORKDIR /opt/app
 
 RUN pip3 install lifx-photons-interactor
 
-CMD ./lifx lan:interactor
+CMD lifx lan:interactor
